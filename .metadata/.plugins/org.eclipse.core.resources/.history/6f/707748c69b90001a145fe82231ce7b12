@@ -1,0 +1,7 @@
+package OnlineFitness;
+
+public class Viewers implements Observer {
+	
+
+
+}

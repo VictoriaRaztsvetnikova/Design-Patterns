@@ -1,0 +1,15 @@
+package OnlineFitness;
+
+public class Trainer {
+	private String TrainerPosition;
+	private String GetUp;
+	private String LieDown;
+	
+	public void GetUp() {
+		this.TrainerPosition = GetUp;
+	}
+	
+	public void LieDown() {
+		this.TrainerPosition = LieDown;
+	}
+}

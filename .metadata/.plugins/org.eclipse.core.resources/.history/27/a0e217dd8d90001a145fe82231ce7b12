@@ -1,0 +1,17 @@
+package OnlineFitness;
+
+public class Trainer {
+	private String TrainerPosition;
+	private String GetUp;
+	private String LieDown;
+	
+	public void GetUp() {
+		System.out.println("Trainer is get up!");
+		this.TrainerPosition = GetUp;
+	}
+	
+	public void LieDown() {
+		System.out.println("Trainer is lie down!");
+		this.TrainerPosition = LieDown;
+	}
+}

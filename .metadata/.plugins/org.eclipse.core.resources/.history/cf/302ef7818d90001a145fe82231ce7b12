@@ -1,0 +1,15 @@
+package OnlineFitness;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		FitnessInstructor fitnessInstructor = new FitnessInstructor();
+		Trainer trainer = new Trainer();
+		Command getUpCommand = new GetUpCommand(trainer);
+		Command lieDownCommand = new LieDownCommand(trainer);
+		
+		fitnessInstructor.setCommand(getUpCommand);
+		fitnessInstructor.setCommand(lieDownCommand);
+	}
+}

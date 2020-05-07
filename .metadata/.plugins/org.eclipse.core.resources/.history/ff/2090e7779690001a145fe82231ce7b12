@@ -1,0 +1,42 @@
+package OnlineFitness;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Trainer implements Observable {
+	
+   private String TrainerPosition;
+	
+	public void GetUp() {
+		System.out.println("Trainer is get up!");
+		this.TrainerPosition = "GetUp";
+	}
+	
+	public void LieDown() {
+		System.out.println("Trainer is lie down!");
+		this.TrainerPosition = "LieDown";
+	}
+
+	private List<Observer> observer = new ArrayList<Observer>();
+	
+	@Override
+	public void subscrite(Observer observer) {
+		
+	}
+
+	@Override
+	public void unsubscribe(Observer observer) {
+
+	}
+
+	@Override
+	public void notifyObservers() {
+
+	}
+
+	@Override
+	public String getUpdate() {
+		return null;
+	}
+
+}

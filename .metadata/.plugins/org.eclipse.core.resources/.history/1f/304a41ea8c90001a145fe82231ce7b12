@@ -1,0 +1,11 @@
+package OnlineFitness;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		FitnessInstructor fitnessInstructor = new FitnessInstructor();
+		Trainer trainer = new Trainer();
+	}
+
+}

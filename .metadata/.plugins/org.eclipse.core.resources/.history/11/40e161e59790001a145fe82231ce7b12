@@ -1,0 +1,16 @@
+package OnlineFitness;
+
+public class Viewers implements Observer {
+
+	@Override
+	public void update() {
+		
+	}
+
+	@Override
+	public void setTraining(Observable training) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

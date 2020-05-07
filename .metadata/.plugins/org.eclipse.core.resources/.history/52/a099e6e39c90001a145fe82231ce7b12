@@ -1,0 +1,25 @@
+package OnlineFitness;
+
+public class Viewers implements Observer {
+
+	private String name;
+	private Observable trainer;
+
+	public Viewers(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void update() {
+		if(this.trainer == null) {
+			System.out.println("There is no trainer!");
+		}
+		String latestTrainer = this.trainer.getUpdate();
+		System.out.println(name +" updated " + latestTrainer);
+	}
+
+	@Override
+	public void setTraining(Observable training) {
+		this.trainer = trainer;
+	}
+}

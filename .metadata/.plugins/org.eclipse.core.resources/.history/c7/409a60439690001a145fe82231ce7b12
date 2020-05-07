@@ -1,0 +1,29 @@
+package OnlineFitness;
+
+public class Trainer implements Observable {
+
+	@Override
+	public void subscrite(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void unsubscribe(Observer observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getUpdate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
